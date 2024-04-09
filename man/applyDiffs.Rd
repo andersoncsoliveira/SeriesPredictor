@@ -6,9 +6,6 @@
 \usage{
 applyDiffs(serie_temporal, d, D)
 }
-\value{
-Retorna o numero de diferença para retirar a tendencia e a sazonalidade
-}
 \description{
 Aplica as diferenciações necessárias à série temporal
 }

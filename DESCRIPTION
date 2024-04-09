@@ -1,9 +1,11 @@
 Package: SeriesPredictor
-Title: What the Package Does (One Line, Title Case)
+Title:SeriesPredictor (ambiente shiny para análise de séries temporais)
 Version: 0.0.0.9000
-Authors@R: 
-    person("Gabriel Cardoso", "Anderosn Castro Soares de Oliveira")
-Description: What the package does (one paragraph).
+Author: as.person(c(
+  Gabriel Cardoso <gc693969@gmail.com>;
+  Anderson Castro Soares de Oliveira <anderson.oliveira@ufmt.br>.)
+Maintainer: Anderson Castro Soares de Oliveira <anderson.oliveira@ufmt.br>
+Description: análise de séries temporais.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
