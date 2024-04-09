@@ -4,12 +4,11 @@
 #' @export
 
 AppView<- function(){
-
-  appDir<- system.file("AppView",package = "SeriesPredictor")
-  if (appDir =="../inst/AppView") {
+  appDir<- system.file("shiny",package = "SeriesPredictor")
+  if (appDir ==" ") {
     stop("Não foi possível encontrar o aplicativo Shiny no pacote")
   }
-  shiny::runApp()
+  shiny::runApp(appDir)
 
 }
 
