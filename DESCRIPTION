@@ -20,3 +20,5 @@ Imports:
     shinythemes,
     randtests,
     ptest
+URL: https://github.com/andersoncsoliveira/SeriesPredictor
+BugReports: https://github.com/andersoncsoliveira/SeriesPredictor/issues
