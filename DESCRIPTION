@@ -1,0 +1,33 @@
+Package: SeriesPredictor
+Type: Package
+Title: Análise e Predição de Séries Temporais via Shiny
+Version: 1.0.2
+Authors@R: c(
+    person("Gabriel", "Cardoso", role = "aut"),
+    person("Anderson", "Castro Soares de Oliveira",
+           email = "anderson.oliveira@ufmt.br",
+           role = c("aut", "cre")))
+Description: Este pacote fornece uma interface gráfica interativa (Shiny)
+    para análise e predição de séries temporais, incluindo importação de dados,
+    transformação para objetos ts, ajuste de modelos (por exemplo, ARIMA/SARIMA),
+    diagnóstico e geração de previsões e gráficos.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+URL: https://github.com/andersoncsoliveira/SeriesPredictor
+BugReports: https://github.com/andersoncsoliveira/SeriesPredictor/issues
+Imports:
+    shiny,
+    shinydashboard,
+    DT,
+    dplyr,
+    readxl,
+    forecast,
+    TSA,
+    tsoutliers,
+    randtests,
+    openxlsx
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
