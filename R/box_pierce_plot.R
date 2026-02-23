@@ -31,7 +31,7 @@ box_pierce_plot <- function(residuals) {
   }
 
   plot(0:max_lag, p_values,
-       pch = 19,col=red,
+       pch = 19,col="red",
        xlab = "Lag", ylab = "valor-p", main = "Teste de Box-Pierce",
        ylim = c(0, 1))
   abline(h = 0.05, lty = 2)
