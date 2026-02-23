@@ -14,5 +14,5 @@ devtools::install_github("andersoncsoliveira/SeriesPredictor")
 ▶️ Executar o aplicativo Shiny
 ```r
 library(SeriesPredictor)
-run_app()
+AppView()
 ```
